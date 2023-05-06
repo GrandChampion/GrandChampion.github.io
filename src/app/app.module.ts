@@ -12,6 +12,8 @@ import {MatGridListModule} from "@angular/material/grid-list";
 import {EducationCardComponent} from './education-card/education-card.component';
 import { LinkCardComponent } from './link-card/link-card.component';
 import { HeaderBannerComponent } from './header-banner/header-banner.component';
+import { FooterComponent } from './footer/footer.component';
+import { ProjectCardComponent } from './project-card/project-card.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { HeaderBannerComponent } from './header-banner/header-banner.component';
     AppComponent,
     EducationCardComponent,
     LinkCardComponent,
-    HeaderBannerComponent
+    HeaderBannerComponent,
+    FooterComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,
