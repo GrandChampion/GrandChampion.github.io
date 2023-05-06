@@ -1,0 +1,13 @@
+.aboutme-style {
+  box-shadow: none;
+}
+
+.image-style1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-style2 {
+  width: 300px;
+}

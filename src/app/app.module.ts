@@ -15,6 +15,7 @@ import { HeaderBannerComponent } from './header-banner/header-banner.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { HobbyCardComponent } from './hobby-card/hobby-card.component';
+import { AboutmeCardComponent } from './aboutme-card/aboutme-card.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { HobbyCardComponent } from './hobby-card/hobby-card.component';
     HeaderBannerComponent,
     FooterComponent,
     ProjectCardComponent,
-    HobbyCardComponent
+    HobbyCardComponent,
+    AboutmeCardComponent
   ],
   imports: [
     BrowserModule,
