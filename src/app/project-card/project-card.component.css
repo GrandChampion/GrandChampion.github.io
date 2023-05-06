@@ -9,5 +9,19 @@
 }
 
 .explanation-style {
+  box-shadow: none;
   padding-left: 10%;
+}
+
+.card-style {
+  box-shadow: none;
+}
+
+.projectTitle-style{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.github-logo-style{
+  width: 100%
 }
