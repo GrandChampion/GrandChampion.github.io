@@ -10,12 +10,16 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {EducationCardComponent} from './education-card/education-card.component';
+import { LinkCardComponent } from './link-card/link-card.component';
+import { HeaderBannerComponent } from './header-banner/header-banner.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    EducationCardComponent
+    EducationCardComponent,
+    LinkCardComponent,
+    HeaderBannerComponent
   ],
   imports: [
     BrowserModule,

@@ -8,19 +8,6 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  .toolbar {
-    justify-content: center;
-    background-color: #002145;
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-  }
-
-  .centerText {
-    justify-content: center;
-    align-items: center;
-  }
-
   .footer {
     display: flex;
     justify-content: center;
@@ -31,54 +18,19 @@
     flex: 1 1 auto;
   }
 
-  .ubc-logo {
-    width: 10%;
-  }
-
-
 
 </style>
-<!--Tool bar-->
-<mat-toolbar class="toolbar">
-  <mat-toolbar-row class="centerText">
-    <span>Yeongu Choe</span>
-  </mat-toolbar-row>
+<app-header-banner></app-header-banner>
+<app-link-card></app-link-card>
 
-
-</mat-toolbar>
-<mat-card class="centerText">
-  <mat-card-content>
-    <a href="https://github.com/GrandChampion/" target="_blank">
-      <button mat-icon-button>
-        <img src="assets/CV.svg">
-      </button>
-    </a>
-    <a href="https://github.com/GrandChampion/" target="_blank">
-      <button mat-icon-button>
-        <img src="assets/github-mark.svg">
-      </button>
-    </a>
-    <a href="https://www.linkedin.com/in/yeongu/" target="_blank">
-      <button mat-icon-button>
-        <img src="assets/LI-In-Bug.png">
-      </button>
-    </a>
-  </mat-card-content>
-</mat-card>
-
-<!--Education card-->
 <p>
   My interest includes multimedia systems. Theoretical and practical issues in designing multimedia systems. Interactive
   multimedia, digital video broadcasting and streaming, media asset management, video indexing and retrieval, content
   protection, and design of multimedia middleware.
   In the mean time, I have interest in stock trading.
-  <app-education-card></app-education-card>
-
-  <!--  Project card-->
-  <mat-card>
-    <mat-card-title><b>Project</b></mat-card-title>
-    <mat-card-header>The Chatting app</mat-card-header>
-  </mat-card>
 </p>
+<!--Education card-->
+<app-education-card></app-education-card>
+
 
 <footer class="footer">🍁Made with Angular.js by Yeongu</footer>

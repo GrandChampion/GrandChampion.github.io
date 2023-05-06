@@ -1,0 +1,12 @@
+.toolbar {
+  justify-content: center;
+  background-color: #002145;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.title-style {
+  justify-content: center;
+  align-items: center;
+}
