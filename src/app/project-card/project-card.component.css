@@ -1,3 +1,13 @@
 .project-style {
   box-shadow: none;
 }
+
+.title {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.explanation-style {
+  padding-left: 10%;
+}
