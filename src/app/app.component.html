@@ -16,7 +16,7 @@
     color: white;
   }
 
-  .centerText{
+  .centerText {
     justify-content: center;
     align-items: center;
   }
@@ -31,6 +31,12 @@
     flex: 1 1 auto;
   }
 
+  .ubc-logo {
+    width: 10%;
+  }
+
+
+
 </style>
 <!--Tool bar-->
 <mat-toolbar class="toolbar">
@@ -41,21 +47,24 @@
 
 </mat-toolbar>
 <mat-card class="centerText">
-  <a href="https://github.com/GrandChampion/" target="_blank">
-    <button mat-icon-button>
-      <img src="assets/CV.svg">
-    </button>
-    <button mat-icon-button>
-      <img src="assets/github-mark.svg">
-    </button>
-    <button mat-icon-button>
-      <img src="assets/LI-In-Bug.png">
-    </button>
-  </a>
-
-
+  <mat-card-content>
+    <a href="https://github.com/GrandChampion/" target="_blank">
+      <button mat-icon-button>
+        <img src="assets/CV.svg">
+      </button>
+    </a>
+    <a href="https://github.com/GrandChampion/" target="_blank">
+      <button mat-icon-button>
+        <img src="assets/github-mark.svg">
+      </button>
+    </a>
+    <a href="https://www.linkedin.com/in/yeongu/" target="_blank">
+      <button mat-icon-button>
+        <img src="assets/LI-In-Bug.png">
+      </button>
+    </a>
+  </mat-card-content>
 </mat-card>
-
 
 <!--Education card-->
 <p>
@@ -63,11 +72,7 @@
   multimedia, digital video broadcasting and streaming, media asset management, video indexing and retrieval, content
   protection, and design of multimedia middleware.
   In the mean time, I have interest in stock trading.
-  <mat-card>
-    <mat-card-title><b>Education</b></mat-card-title>
-    <mat-card-header>University of British Columbia</mat-card-header>
-    <mat-card-content>Bachelor of Science</mat-card-content>
-  </mat-card>
+  <app-education-card></app-education-card>
 
   <!--  Project card-->
   <mat-card>
