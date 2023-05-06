@@ -6,14 +6,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from "@angular/material/card";
 import {MatToolbarModule} from "@angular/material/toolbar";
-import { GithubButtonComponent } from './github-button/github-button.component';
 import {MatIconModule} from "@angular/material/icon";
+import {MatButtonModule} from "@angular/material/button";
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    GithubButtonComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -22,6 +21,7 @@ import {MatIconModule} from "@angular/material/icon";
     MatCardModule,
     MatToolbarModule,
     MatIconModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
