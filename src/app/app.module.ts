@@ -14,6 +14,7 @@ import { LinkCardComponent } from './link-card/link-card.component';
 import { HeaderBannerComponent } from './header-banner/header-banner.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
+import { HobbyCardComponent } from './hobby-card/hobby-card.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ProjectCardComponent } from './project-card/project-card.component';
     LinkCardComponent,
     HeaderBannerComponent,
     FooterComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    HobbyCardComponent
   ],
   imports: [
     BrowserModule,

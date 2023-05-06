@@ -9,6 +9,7 @@
 }
 
 .explanation-style {
+  background-color: inherit;
   box-shadow: none;
   padding-left: 10%;
 }
