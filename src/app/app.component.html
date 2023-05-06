@@ -16,24 +16,46 @@
     color: white;
   }
 
+  .centerText{
+    justify-content: center;
+    align-items: center;
+  }
+
   .footer {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
+  .example-spacer {
+    flex: 1 1 auto;
+  }
 
 </style>
 <!--Tool bar-->
 <mat-toolbar class="toolbar">
-  <span>Yeongu Choe</span>
+  <mat-toolbar-row class="centerText">
+    <span>Yeongu Choe</span>
+  </mat-toolbar-row>
+
+
+</mat-toolbar>
+<mat-card class="centerText">
   <a href="https://github.com/GrandChampion/" target="_blank">
     <button mat-icon-button>
-      <img src="assets/github-mark-white.svg">
+      <img src="assets/CV.svg">
+    </button>
+    <button mat-icon-button>
+      <img src="assets/github-mark.svg">
+    </button>
+    <button mat-icon-button>
+      <img src="assets/LI-In-Bug.png">
     </button>
   </a>
 
-</mat-toolbar>
+
+</mat-card>
+
 
 <!--Education card-->
 <p>
